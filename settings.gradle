@@ -1,0 +1,4 @@
+rootProject.name = 'gradle_study'
+// 프로젝트의 이름임
+// 만약 이름이 바뀐다면 여기도 함께 바꾸어주어야함 
+

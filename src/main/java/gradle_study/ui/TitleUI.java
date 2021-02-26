@@ -1,0 +1,27 @@
+package gradle_study.ui;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+public class TitleUI extends JFrame {
+
+	private JPanel contentPane;
+
+
+	/**
+	 * Create the frame.
+	 */
+	public TitleUI() {
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); // 닫는 순간 종료하도록 됨...
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setLayout(new BorderLayout(0, 0));
+		setContentPane(contentPane);
+	}
+
+}
